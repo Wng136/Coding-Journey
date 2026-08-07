@@ -32,11 +32,11 @@ All variables can also be assigned the same data, "Unity"
 """
 
 """
-Moving onto the variable naming
-The x, y, and x shown above are exmaples of names assigned to the variables, which allows the computer to find and retrieve the assigned data
-Another way of understanding it, is that x is the label given to the storage compartment consisting the number 1
+Moving onto variable naming
+The x, y, and z shown above are examples of names assigned to the variables, which allows the computer to find and retrieve the assigned data
+Another way of understanding it is that x is the label given to the storage compartment containing the number 1
 
-Not only that, there are also rules in naming these variables
+Not only that, but there are also rules in naming these variables
 Good Examples:
 """
 
@@ -48,14 +48,14 @@ MYVAR = "John"
 myvar2 = "John"
 
 """
-The naming rules strictly follows these:
+The naming rules strictly follow these:
 - Must start with a letter or the underscore character
 - Cannot start with a number
 - Can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-- Case-sensitive (age, Age and AGE are three different variables)
+- Case-sensitive (age, Age, and AGE are three different variables)
 - Cannot be any of the Python keywords
 
-Any variable namings without following these rules produces errors
+Any variable naming without following these rules produces errors
 Bad Examples:
 """
 
@@ -65,26 +65,26 @@ Bad Examples:
 
 
 """
-Now that is the theoretical understanding of variables, but the practical wisdom in naming variable also holds great importance
+Now that is the theoretical understanding of variables, but the practical wisdom in naming variables also holds great importance
 For Example: 
 """
 
 UserName = user_name = userName = "Paul" 
-# There are many naming pattern (follows rules) but best to maintain consistant naming pattern for cleanliness
+# There are many naming patterns (follow rules), but best to maintain a consistent naming pattern for cleanliness
 UserAge = "60"
 
 """
-It is recommended that the naming holds significance in showing the intent, and functions of the variable
-This is escpecially important in large programs with many variables 
+It is recommended that the naming holds significance in showing the intent and functions of the variable
+This is especially important in large programs with many variables 
 so that other people and yourself working on the program would understand the program faster
-Best to train to be accustom to a familiar naming pattern
+Best to train to be accustomed to a familiar naming pattern
 """
 
 
 """
-These theory and knowledge are fundamentals in handling variables in Python
-from the above it can be concluded, that a name is assigned to a variable that contains data
-as well as the rules and method in utilising variables
+These theories and knowledge are fundamentals in handling variables in Python
+From the above, it can be concluded that a name is assigned to a variable that contains data
+as well as the rules and methods in utilising variables
 """
 
 
@@ -92,7 +92,7 @@ as well as the rules and method in utilising variables
 
 
 """
-Another two aditional function for variables are casting and getting the data type of the variable
+Two additional functions for variables are casting and getting the data type of the variable
 
 Casting is used to specify the data type of the variable
 For Example:
@@ -109,6 +109,6 @@ Another function is printing out the data type of the variable
 For Example:
 """
 
-print(type(x)) # <class 'int'>
-print(type(y)) # <class 'str'>
+print(type(x)) # <class 'str'>
+print(type(y)) # <class 'int'>
 print(type(z)) # <class 'float'>
